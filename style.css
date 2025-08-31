@@ -1,0 +1,101 @@
+body{
+    font-family: "M PLUS Rounded 1c";
+}
+
+li{
+    list-style: none;
+}
+.header{
+    background: #ffffff;
+    border-bottom:1px solid #e0e0e0;
+    height:80px;
+}
+.header-logo{
+    float: left;
+    font-size: 24px;
+    font-weight: 700;
+    padding: 25px 25px 25px 120px;
+}
+.header-list li{
+    float: left;
+    font-size: 15px;
+    padding: 10px 20px;
+}
+.header-list{
+    float:right;
+    padding: 5px 80px 5px 5px;
+}
+.header-list a{
+    color:black;
+    text-decoration: none;
+}
+.header-list a:visited{
+    color:black;
+}
+.header-list a:hover{
+    color:#1a2a40;
+}
+.header-list a:active,.header-list a:focus{
+    color:#1a2a40;
+    text-decoration: none;
+}
+.hero{
+    padding:80px;
+    background: linear-gradient(135deg,#ffe6f0,#e6f7ff,#ffeaf5);
+}
+.copy-container{
+    font-size: 20px;
+    color: #fff;
+    text-shadow:2px 2px 4px rgba(0,0,0,0.4);
+    padding-left: 350px;
+}
+.flower-icon{
+    width: 200px;
+    height:200px;
+    float: right;
+}
+.main{
+    padding: 30px 30px 30px 80px;
+    background: linear-gradient(180deg,#fff,#f8fbff);
+}
+.our-story-section{
+    height:350px;
+    margin-top: 20px;
+}
+.our-story-row{
+    display:flex;
+    align-items: flex-start;
+    gap: 500px;
+}
+.section-title{
+    border-bottom:2px solid #b5cfe7;
+    font-size: 28px;
+    padding: 20px;
+    color: #1a2a40;
+    margin-bottom: 60px;
+}
+.flower-card-section{
+    height: 500px;
+    margin-bottom: 150px;
+    
+}
+.contents-item{
+    float: left;
+    margin-right: 30px;
+    margin-left: 10px;
+}
+.pic{
+    width:250px;
+    height:250px;
+    margin:30px 20px 20px 20px;
+}
+.price{
+    color: rgb(8, 97, 97);
+}
+.Access-section{
+    height:350px;
+}
+.footer{
+    height: 80px;
+    background: #d6e6f0;
+}
